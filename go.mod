@@ -1,4 +1,4 @@
-module github.com/tiktok-video-search
+module github.com/hegifebrianto/tiktok-video-search
 
 go 1.23.2
 
