@@ -1,14 +1,16 @@
-module tiktok-video-search
+module github.com/tiktok-video-search
 
 go 1.23.2
 
+// require github.com/allegro/bigcache/v3 v3.1.0
+
+
 require (
-	github.com/auth0/go-jwt-middleware v1.0.1 // indirect
+	github.com/allegro/bigcache/v3 v3.1.0
 	github.com/bytedance/sonic v1.12.3 // indirect
 	github.com/bytedance/sonic/loader v0.2.1 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
-	github.com/form3tech-oss/jwt-go v3.2.5+incompatible // indirect
 	github.com/gabriel-vasile/mimetype v1.4.6 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.10.0 // indirect
